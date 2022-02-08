@@ -1,8 +1,11 @@
-function App() {
+import { Header } from './components/Navbar'
+import GlobalStyles from './styles/Global'
+
+export function App(): JSX.Element {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Header />
+      <GlobalStyles />
+    </>
   )
 }
-
-export default App
