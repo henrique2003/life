@@ -6,6 +6,7 @@ export const Container = styled.div`
   background-image: url(${banner});
   height: 100vh;
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 `
 
@@ -19,11 +20,8 @@ export const Navbar = styled.nav`
   padding: 40px 0; 
 `
 
-export const Logo = styled.h1`
-  text-transform: uppercase;
-  font-size: 36px;
-  color: #00000;
-  font-weight: 700;
+export const Logo = styled.img`
+  width: 150px;
 `
 export const NavMenu = styled.ul`
   list-style: none;
@@ -80,4 +78,5 @@ export const Button = styled.button`
   font-size: 14px;
   font-weight: 700;
   margin-top: 18px;
+  cursor: pointer;
 `

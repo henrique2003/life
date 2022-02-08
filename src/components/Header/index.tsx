@@ -11,12 +11,14 @@ import {
   Button
 } from './styles'
 
+import logo from '../../assets/logo.png'
+
 export const Header: React.FC = () => {
   return (
     <Container>
       <Navbar>
         <NavLink>
-          <Logo>Life</Logo>
+          <Logo src={logo}></Logo>
         </NavLink>
         <NavMenu>
           <NavLink>Home</NavLink>

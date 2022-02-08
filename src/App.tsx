@@ -1,4 +1,4 @@
-import { Header, FeatureBox } from './components'
+import { Header, FeatureBox, AboutUs } from './components'
 
 import GlobalStyles from './styles/Global'
 
@@ -7,6 +7,7 @@ export function App(): JSX.Element {
     <>
       <Header />
       <FeatureBox />
+      <AboutUs />
       <GlobalStyles />
     </>
   )
